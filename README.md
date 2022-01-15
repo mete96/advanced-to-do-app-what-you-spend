@@ -2,5 +2,5 @@
 
 Live at: https://keen-banach-9b3a56.netlify.app/
 
-just a different kinda of to do app beginner & advanced friendly :)
+just a different kinda of to do app :)
 
