@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="app.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>Calculate Bill </title>
+</head>
+
+<body>
+  <div class="nav">
+    <img src="/logo.png" id="logo" />
+  </div>
+  <div class="grid">
+
+  <div class="sidebar">
+    <ul class="side">
+      <li><a href="/">HOMEPAGE</a>
+      <li><a href="/car.html">Car Bills</a>
+      <li><a href="/grocery.html">Grocery Bills</a>
+      <li><a href="/other.html">Other Bills</a>
+    </ul>
+  </div>
+    <div
+      class="body-container"></div>
+    <div class="container">
+      <div class="header">
+        <h1>What You Spend?</h1>
+     <p>Calculate and Track your bills!
+    </p>
+      </div>
+      <form class="formzo"> 
+        <div class="top3">
+          <label for="top" class="label">Bill Category: </label>
+      <select id="top">
+        <option value="Grocery">Grocery</option>
+        <option value="Car">Car</option>
+        <option value="Other">Other</option>
+      </select></div>
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          class="taskname"
+          placeholder="What did u bought?"
+        />
+        <input
+          type="number"
+          class="taskname1"
+          placeholder="How much u paid?"
+        />
+        <input
+          type="number"
+          class="taskname2"
+          placeholder="How many u got?"
+        />
+        <div class="group">
+          <button type="submit" class="btn">
+           Add
+          </button>
+        </form>
+        </div>
+      </div>
+      <div class="m">
+      <button type="button" class="btn1">Calculate</button>
+    </div>
+      <ul class="tasklist">
+
+      </ul>
+      <button type="button" class="btnClear">Clear All</button>
+    </div>
+  </div>
+  </body>
+</html>

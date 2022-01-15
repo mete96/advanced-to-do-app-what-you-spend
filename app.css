@@ -1,0 +1,308 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+body {
+  color: #000000;
+  background-color: #fafafa;
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  width: 970px;
+  margin: 0 auto;
+  padding: 12px 55px 44px;
+  border-top: 5px solid rgba(255, 255, 255, 0.16);
+  user-select: none;
+  border: none;
+  border-radius: 14px;
+  box-shadow: 4px 10px 15px 2px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  padding: 0;
+}
+.header {
+  padding-bottom: 17px;
+}
+p {
+  font-size: 15px;
+  color: #222222;
+  top: -42px;
+  margin-top: -13px;
+  font-family: cursive;
+}
+.list-group-item {
+  padding: 0.75rem 1.25rem;
+  border-bottom: 1px solid #000;
+  color: #222222;
+  font-size: 19px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+li {
+  list-style-type: none;
+}
+.btnTask {
+  color: #222222;
+}
+.list-group,
+.list-group-item {
+  background: 0 0 !important;
+}
+.btnClear,
+.btnClear:hover {
+  color: rgb(0, 0, 0);
+
+  float: right;
+  border: none;
+  padding: 10px 30px;
+  font-weight: bold;
+}
+h1 {
+  margin: 0;
+  padding: 20px;
+  color: #222222;
+}
+
+.taskname,
+.taskname1,
+.taskname2 {
+  align-items: center;
+  text-align: center;
+  padding: 10px 35px;
+  margin-left: 0px;
+}
+
+.btn {
+  padding: 10px 88px;
+  border: none;
+  font-size: 19px;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  margin-left: 16rem;
+  margin-top: 10px;
+  background-color: #5d3ebc;
+  border-radius: 4px;
+  color: #ffd300;
+  cursor: pointer;
+}
+
+.btn:hover {
+  filter: drop-shadow(0 0 2.75rem #ffd300);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  opacity: 0.7;
+  transition: 0.5s all;
+}
+
+.btn-remove {
+  float: right;
+  border: none;
+  font-weight: 300;
+  opacity: 0.9;
+}
+
+.side li {
+  text-decoration: none;
+  margin: 40px;
+  font-size: 19px;
+}
+
+.side a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sidebar {
+  background-color: #5d3ebc;
+  width: 204px;
+  height: 100vh;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 200px 0px 1600px;
+}
+
+.logo {
+  display: flex;
+}
+
+.nav {
+  background-color: #5d3ebc;
+}
+
+.logo li {
+  margin: 20px;
+  color: #fff;
+}
+
+#logo {
+  margin-right: 15rem;
+  margin-left: 4rem;
+  width: 334px;
+}
+
+a:hover {
+  color: #ffd300;
+  filter: drop-shadow(0 0 0.75rem #ffd300);
+  padding: 15px;
+  transition: 1s all;
+}
+
+.lezo {
+  margin: 20px;
+  font-weight: bold;
+  font-size: 59px;
+}
+
+.btnClear {
+  margin-top: 10px;
+}
+
+#kategori {
+  margin-left: 10rem;
+  margin-bottom: 10px;
+  padding: 10px 30px;
+}
+
+#top {
+  padding: 10px 15px;
+}
+
+.top3 {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-bottom: 1px solid #000;
+}
+
+.label {
+  margin: 10px;
+}
+
+.ikon {
+  font-size: 32px;
+  position: relative;
+  padding: 0px !important;
+  border: none;
+  cursor: pointer !important;
+  margin-right: 10px;
+  width: 25px;
+  color: #5d3ebc;
+}
+
+.listza {
+  margin: 20px;
+  width: 444px;
+  font-size: 27px;
+  color: green;
+}
+
+.m {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  margin-right: 8.4rem;
+}
+
+.btn1 {
+  padding: 10px 75px;
+  border-radius: 4px;
+  background-color: #5d3ebc;
+  color: #ffd300;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  filter: drop-shadow(0 0 2.75rem #ffd300);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  opacity: 0.7;
+  transition: 0.5s all;
+}
+
+.spano {
+  color: green;
+  float: right;
+  margin-right: 20px;
+}
+
+.spano1 {
+  color: rgb(90, 23, 73);
+  float: right;
+  margin-right: 15px !important;
+}
+.spano2 {
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+
+@media only screen and (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+
+  .header,
+  .side {
+    display: none;
+  }
+
+  .body-container {
+    display: none;
+  }
+
+  .container {
+    width: 500px;
+  }
+
+  .ikon {
+    display: none;
+  }
+
+  .btn {
+    margin: auto auto;
+    margin-top: 10px;
+  }
+  .tasklist,
+  .tasklist li,
+  .list-group-item {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    margin: 0px !important;
+    padding: 0px !important;
+    border-bottom: 1px solid #000;
+  }
+  .btn-remove,
+  .btnClear {
+    float: left;
+    margin-top: 20px;
+  }
+
+  .btn-remove {
+    width: 144px;
+    margin: 3px;
+  }
+}
+
+.calculate {
+  margin-top: 20px;
+  background-color: green;
+  color: #fff;
+  padding: 10px;
+}
